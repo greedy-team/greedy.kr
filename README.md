@@ -1,2 +1,2 @@
 # greedy.kr
-Greedy 홈페이지
+[https://www.greedykr.netlify.app](https://greedykr.netlify.app/)
