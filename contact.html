@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+        <link
+          rel="stylesheet"
+          as="style"
+          onload="this.rel='stylesheet'"
+          href="https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+        />
+        <style>
+            body{
+                font-family: Be Vietnam Pro, Noto Sans, sans-serif;
+            }
+            .korean-text{
+                font-family: "42dot Sans", sans-serif;
+            }
+        </style>
+        <title>Greedy</title>
+        <link rel="icon" type="image/x-icon" href="/image/greedy_icon.ico" />
+    
+        <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-neutral-50 group/design-root overflow-x-hidden" style='font-family: "Be Vietnam Pro", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7eef4] px-10 py-3">
+            <a class="flex items-center gap-4 text-[#0d151c]" href="/index.html">
+              <div class="size-11">
+                <img src="/image/greedy_circle.png" alt="Greedy"/>
+              </div>
+              <h2 class="text-[#0d151c] text-lg font-bold leading-tight tracking-[-0.015em]">Greedy</h2>
+            </a>
+            <div class="flex flex-1 justify-end gap-8">
+                <div class="flex items-center gap-9">
+                    <a class="text-[#0d151c] hover:scale-105 text-sm font-medium leading-normal" href="/index.html">Home</a>
+                    <a class="text-[#0d151c] hover:scale-105 text-sm font-medium leading-normal" href="/about.html">About</a>
+                    <a class="text-[#0d151c] hover:scale-105 text-sm font-medium leading-normal" href="/contact.html">Contact</a>
+                  </div>
+              <div class="flex gap-2">
+                <a href="https://discord.gg/7hRUaqRh" target="_blank">
+                  <button class="flex min-w-[84px] max-w-[480px] hover:scale-105 cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#e7eef4]">
+                    <span class="truncate">
+                      <img src="/image/discord_icon.svg" alt="discord" class="size-7"/>
+                    </span>
+                  </button>
+                </a>
+                <a href="https://github.com/greedy-team" target="_blank">
+                  <button class="flex min-w-[84px] max-w-[480px] hover:scale-105 cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#e7eef4]">
+                    <span class="truncate">
+                      <img src="/image/github_icon.png" alt="Github" class="size-7"/>
+                    </span>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-[#141414] tracking-light text-[32px] font-bold leading-tight min-w-72">🏘️Get in Touch</p></div>
+            <p class="text-[#141414] text-base font-normal leading-normal pb-3 pt-1 px-4 text-center korean-text">
+                <b>그리디에 대한 질문, 파트너십이나 후원에 관한 문의, 또는 다른 어떤 내용이든지 편하게 연락주세요.<br/> 여러분의 소중한 의견을 기다리고 있습니다.</b>
+            </p>
+            <p class="text-[#141414] text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
+                We would love to hear from you. Whether it's a question about our club, an inquiry about partnership or sponsorship, or anything else, feel free to reach out to us.
+            </p>
+            <h3 class="text-[#141414] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Community</h3>
+            <div class="flex items-center gap-4 bg-neutral-50 px-4 min-h-[72px] py-2">
+                <div class="text-[#141414] flex items-center justify-center rounded-lg bg-[#ededed] shrink-0 size-12" data-icon="EnvelopeOpen" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                            d="M228.44,89.34l-96-64a8,8,0,0,0-8.88,0l-96,64A8,8,0,0,0,24,96V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V96A8,8,0,0,0,228.44,89.34ZM96.72,152,40,192V111.53Zm16.37,8h29.82l56.63,40H56.46Zm46.19-8L216,111.53V192ZM128,41.61l81.91,54.61-67,47.78H113.11l-67-47.78Z"
+                        ></path>
+                    </svg>
+                </div>
+                <div class="flex flex-col justify-center">
+                    <p class="text-[#141414] text-base font-medium leading-normal line-clamp-1">greedydeerg@gmail.com</p>
+                    <p class="text-neutral-500 text-sm font-normal leading-normal line-clamp-2">greedydeerg@gmail.com</p>
+                </div>
+            </div>
+
+            <!-- 이메일 보내기 버튼 -->
+            <div class="flex px-4 py-3">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=greedydeerg@gmail.com" target="_blank">
+                    <button
+                        class="flex min-w-[84px] max-w-[480px] hover:scale-105 cursor-pointer items-center justify-center overflow-hidden rounded-xl h-9 px-4 flex-1 bg-[#007355] text-[#ededed] text-sm font-bold leading-normal tracking-[0.015em]">
+                        <span class="truncate">Send Email</span>
+                    </button>
+                </a>
+            </div>
+            <h3 class="text-[#141414] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Community</h3>
+            <div class="flex items-center gap-4 bg-neutral-50 px-4 min-h-[72px] py-2">
+              <div class="text-[#141414] flex items-center justify-center rounded-lg bg-[#ededed] shrink-0 size-12" data-icon="Hash" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M224,88H175.4l8.47-46.57a8,8,0,0,0-15.74-2.86l-9,49.43H111.4l8.47-46.57a8,8,0,0,0-15.74-2.86L95.14,88H48a8,8,0,0,0,0,16H92.23L83.5,152H32a8,8,0,0,0,0,16H80.6l-8.47,46.57a8,8,0,0,0,6.44,9.3A7.79,7.79,0,0,0,80,224a8,8,0,0,0,7.86-6.57l9-49.43H144.6l-8.47,46.57a8,8,0,0,0,6.44,9.3A7.79,7.79,0,0,0,144,224a8,8,0,0,0,7.86-6.57l9-49.43H208a8,8,0,0,0,0-16H163.77l8.73-48H224a8,8,0,0,0,0-16Zm-76.5,64H99.77l8.73-48h47.73Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#141414] text-base font-medium leading-normal line-clamp-1">Discord</p>
+                <p class="text-neutral-500 text-sm font-normal leading-normal line-clamp-2">Join our Discord server for the latest updates and to chat with us.</p>
+              </div>
+            </div>
+            <div class="flex px-4 py-3">
+              <a href="https://discord.gg/7hRUaqRh" target="_blank">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] hover:scale-105 cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 flex-1 bg-[#007355] text-[#ededed] text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Join Discord</span>
+                </button>
+              </a>
+            </div>
+            <div class="flex items-center gap-4 bg-neutral-50 px-4 min-h-[72px] py-2">
+              <div class="text-[#141414] flex items-center justify-center rounded-lg bg-[#ededed] shrink-0 size-12" data-icon="Hash" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M224,88H175.4l8.47-46.57a8,8,0,0,0-15.74-2.86l-9,49.43H111.4l8.47-46.57a8,8,0,0,0-15.74-2.86L95.14,88H48a8,8,0,0,0,0,16H92.23L83.5,152H32a8,8,0,0,0,0,16H80.6l-8.47,46.57a8,8,0,0,0,6.44,9.3A7.79,7.79,0,0,0,80,224a8,8,0,0,0,7.86-6.57l9-49.43H144.6l-8.47,46.57a8,8,0,0,0,6.44,9.3A7.79,7.79,0,0,0,144,224a8,8,0,0,0,7.86-6.57l9-49.43H208a8,8,0,0,0,0-16H163.77l8.73-48H224a8,8,0,0,0,0-16Zm-76.5,64H99.77l8.73-48h47.73Z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex flex-col justify-center">
+                <p class="text-[#141414] text-base font-medium leading-normal line-clamp-1">KaKao OpenChat</p>
+                <p class="text-neutral-500 text-sm font-normal leading-normal line-clamp-2">Join our Kakao openchat to ask questions.</p>
+              </div>
+            </div>
+            <div class="flex px-4 py-3">
+              <a href="https://open.kakao.com/o/stsOICeh" target="_blank">
+                <button
+                  class="flex min-w-[84px] max-w-[480px] hover:scale-105 cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 flex-1 bg-[#007355] text-[#ededed] text-sm font-bold leading-normal tracking-[0.015em]"
+                >
+                  <span class="truncate">Join KaKao OpenChat</span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
