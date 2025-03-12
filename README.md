@@ -1,2 +1,2 @@
 # greedy.kr
-[Homepage](https://greedykr.netlify.app/)
+[바로가기](https://greedy-team.netlify.app/)
